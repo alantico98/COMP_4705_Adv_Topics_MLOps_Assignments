@@ -20,26 +20,34 @@ pip --version
 
 ### 3. Git
 
+```bash
 git --version
+```
 
 ### 4. WSL 2 Backend (Windows users only)
 
+```bash
 wsl --version
+```
 
 ### 5. Docker Installed (for containerized setup)
 
+```bash
 docker --version
+```
 
 ## How to Run
 
 Follow these steps to run the app locally (using Docker):
 
 1. Clone the repo using bash (if on Windows, use WSL that allows for ssh cloning):
+
     bash
     git clone git@github.com:alantico98/COMP_4705_Adv_Topics_MLOps_Assignments.git
     (If not already done) cd COMP_4705_Adv_Topics_MLOps_Assignments
 
 2. (Optional ) Create a virtual environment (Skip this if you're only running the app via Docker)
+
     python -m venv .venv
     source .venv\Scripts\activate # If using Windows
     source .venv/Scripts/activate # If using Git-bash or WSL on Windows
