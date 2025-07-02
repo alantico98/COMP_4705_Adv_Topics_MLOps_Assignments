@@ -1,0 +1,5 @@
+# Required libraries
+streamlit
+pandas
+scikit-learn
+joblib

@@ -1,2 +1,18 @@
-Assignment_1/imdb_dataset.csv
-Assignment_1/sentiment_labels.pkl
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment files
+*.env
+
+# Streamlit cache
+.streamlit/
+
+# Ignore dataset/model if not needed in version control
+*.csv
+*.pkl
